@@ -1,6 +1,4 @@
-import userOne from "./assets/user_three.jpg"
-
-function Testimonial({ desc, name, info }) {
+function Testimonial({ desc, name, info, imgurl }) {
   return (
     <div className="testimonial-container">
       <div className="test-desc">
@@ -10,7 +8,7 @@ function Testimonial({ desc, name, info }) {
       </div>
       <div className="user-info">
         <div className="user-img">
-          <img src={userOne} alt="" />
+          <img src={imgurl} alt="" />
         </div>
 
         <div className="user-desc">

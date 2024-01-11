@@ -263,7 +263,7 @@ body {
   align-items: center;
 }
 .footer-bg {
-  background-color: #007aff;
+  background-color: rgba(10, 102, 194, 1);
 }
 
 .footer-left {
